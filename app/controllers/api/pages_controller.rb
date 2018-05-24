@@ -5,5 +5,6 @@ class Api::PagesController < ApplicationController
 		@second_message = "Hello World"
 		render 'hello_view.json.jbuilder'
 	end
+	
 
 end
